@@ -1,0 +1,31 @@
+@import "../base/mapa";
+
+.grid-container{
+    
+    display: map-get($mapaDeDisplay , display-used1 );
+    grid-template-columns: 270px 270px;
+    grid-template-rows: 350px 350px;
+    column-gap: 70px;
+    row-gap: 70px;
+    @media only screen and (max-width:780px){
+        background-color: aliceblue;
+        width: 273px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+.grid-item{
+    border: 2px black solid;
+    border-radius: 40px;
+    box-shadow:8px 8px;
+    @media only screen and (max-width:480px){
+        text-align: center;
+        width: 350px;
+    }
+}
+.imagennav{
+    width: 200px; 
+  height: 150px; 
+}

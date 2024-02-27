@@ -1,0 +1,16 @@
+@import "../base/mixins";
+
+*{
+    @include todosLosHtmls(Italic, rgb(16, 19, 19),blanchedalmond)
+}
+
+body{
+    margin-top: 0;
+}
+h1{
+    @media only screen and (max-width:1440px){
+        white-space: nowrap;
+        overflow: visible;
+        font-size:large;
+    }
+}

@@ -1,0 +1,30 @@
+#navegadorPrincipal{
+    padding: 0vw 25vh;
+}
+
+nav{
+    a{
+        color:black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+        background-color: rgb(196, 178, 18);
+
+        &:hover{
+            color:whitesmoke;
+        }
+    }
+}
+
+.navdepaginas{
+    @media only screen and (max-width:480px){
+    white-space: nowrap;
+    margin-top: 20px;
+    font-size: 9px;
+    }
+
+    @media only screen and (max-width:1440px) and (min-width:480px){
+        white-space: nowrap;
+        margin-top: 20px;
+        font-size: 11px;
+        }
+}

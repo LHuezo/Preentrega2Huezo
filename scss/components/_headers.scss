@@ -1,0 +1,33 @@
+@import "../base/extends";
+@import"../base/mapa";
+
+.headerindex{
+    align-items: map-get($mapaDeDisplay , content-used1);
+    display: map-get($mapaDeDisplay , display-used );
+    @media only screen and (max-width:1440px){
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        height: 25vh;
+        width: 240px;
+        margin-left:120px;
+        text-align: center;
+    }
+    
+}
+
+header{
+    @extend %headerextend;
+    @media only screen and (max-width:480px){
+        background-color: whitesmoke;
+    }
+}
+
+.headerdePaginas{
+    @media only screen and (max-width:1440px){
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+}

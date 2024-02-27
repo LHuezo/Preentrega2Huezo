@@ -1,0 +1,31 @@
+@import "../base/mapa";
+
+.carousel-item{
+    display: map-get($mapaDeDisplay , display-used );
+    justify-content: map-get($mapaDeDisplay , content-used1);
+}
+
+.carrusel-Compas{
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.texto-Slide{
+    box-shadow: 2px 2px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: whitesmoke ;
+}
+
+.imagenDeSlide{
+    padding-left: 35vw;
+    padding-bottom: 120px;
+}
+
+.carrusel-Compas img{
+    height: 500px;
+}
+
+#primeraimagendeslide{
+    padding-right: 25%;
+
+}

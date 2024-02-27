@@ -1,0 +1,6 @@
+@mixin todosLosHtmls($font,$color,$bcolor){
+    font-family: $font ;
+    color: $color;
+    background-color: $bcolor;
+
+}

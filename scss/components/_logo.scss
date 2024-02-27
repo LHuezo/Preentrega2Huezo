@@ -1,0 +1,13 @@
+@import "../base/mapa";
+
+.logo{
+    display: map-get($mapaDeDisplay , display-used );
+    width: 25vw;
+    height: 10vh;
+    margin-right: 10px;
+}
+
+.logo-titulo{
+    display: map-get($mapaDeDisplay , display-used );
+    align-items: map-get($mapaDeDisplay , content-used1 );
+}

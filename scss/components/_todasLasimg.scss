@@ -1,0 +1,21 @@
+img{
+    padding: 10px 10px 10px 10px ;
+}
+.notas-En-Piano{
+    max-width: 100%  ;
+    height: 200px;
+}
+.Notas{
+    @media only screen and (max-width:480px){
+        background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 480px
+    }
+}
+.notas-En-Piano{
+    @media only screen and (max-width:480px){
+    max-width: 100%;
+    }
+
+}
