@@ -142,6 +142,15 @@ img {
   }
 }
 
+.contenedorDeimagenes {
+  max-width: 100%;
+  height: auto;
+}
+.contenedorDeimagenes img {
+  max-width: 100%;
+  height: auto;
+}
+
 .carousel-item {
   display: flex;
   justify-content: center;
