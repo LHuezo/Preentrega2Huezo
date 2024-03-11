@@ -218,6 +218,11 @@ img {
   border: 2px black solid;
   border-radius: 40px;
   box-shadow: 8px 8px;
+  transition: transform 0.3s;
+}
+.grid-item:hover {
+  transform: scale(1.3);
+  z-index: 2;
 }
 @media only screen and (max-width: 780px) {
   .grid-item {
