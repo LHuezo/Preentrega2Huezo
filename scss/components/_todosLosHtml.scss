@@ -1,6 +1,7 @@
 @import "../base/mixins";
 
 *{
+    
     @include todosLosHtmls(Italic, rgb(16, 19, 19),blanchedalmond)
 }
 
@@ -13,4 +14,15 @@ h1{
         overflow: visible;
         font-size:large;
     }
+}
+
+h2{
+    text-align: center;
+}
+
+.iconos-sociales{
+    display: flex;
+    justify-content: center;
+    
+
 }

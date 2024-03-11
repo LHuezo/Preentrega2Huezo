@@ -69,6 +69,15 @@ body {
   }
 }
 
+h2 {
+  text-align: center;
+}
+
+.iconos-sociales {
+  display: flex;
+  justify-content: center;
+}
+
 .logo {
   display: flex;
   width: 25vw;
@@ -82,7 +91,12 @@ body {
 }
 
 #navegadorPrincipal {
-  padding: 0vw 25vh;
+  width: auto;
+}
+@media only screen and (min-width: 957px) {
+  #navegadorPrincipal {
+    padding-left: 170px;
+  }
 }
 
 nav a {
@@ -111,11 +125,12 @@ nav a:hover {
 }
 
 section {
-  margin-top: 20px;
+  margin: 50px 50px 0px 50px;
   padding: 0px 50px;
   border: 20px double black;
   background-color: beige;
   border-color: black;
+  border-radius: 20px;
 }
 
 img {
@@ -191,10 +206,12 @@ img {
 @media only screen and (max-width: 780px) {
   .grid-container {
     background-color: aliceblue;
-    width: 273px;
     display: flex;
     flex-direction: column;
   }
+}
+.grid-container img {
+  border-radius: 40px;
 }
 
 .grid-item {
@@ -202,10 +219,15 @@ img {
   border-radius: 40px;
   box-shadow: 8px 8px;
 }
+@media only screen and (max-width: 780px) {
+  .grid-item {
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 480px) {
   .grid-item {
     text-align: center;
-    width: 350px;
+    width: auto;
   }
 }
 

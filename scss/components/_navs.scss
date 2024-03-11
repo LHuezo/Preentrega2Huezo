@@ -1,5 +1,9 @@
 #navegadorPrincipal{
-    padding: 0vw 25vh;
+    width: auto;
+    @media only screen and (min-width:957px){
+    padding-left: 170px;
+    }
+    
 }
 
 nav{

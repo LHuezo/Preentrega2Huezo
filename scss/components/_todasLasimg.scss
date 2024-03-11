@@ -1,8 +1,9 @@
+@import "../base/variables";
 img{
     padding: 10px 10px 10px 10px ;
 }
 .notas-En-Piano{
-    max-width: 100%  ;
+    max-width: $container-and-img-width ;
     height: 200px;
 }
 .Notas{
@@ -15,7 +16,7 @@ img{
 }
 .notas-En-Piano{
     @media only screen and (max-width:480px){
-    max-width: 100%;
+    max-width: $container-and-img-width;
     }
 
 }
@@ -24,13 +25,15 @@ img{
 
 
 .contenedorDeimagenes{
-    max-width: 100%;
+    max-width: $container-and-img-width;
     height: auto;
     img{
-        max-width: 100%;
+        max-width: $container-and-img-width;
     height: auto;
 
     }
 
 }
+
+
 
