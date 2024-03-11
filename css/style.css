@@ -232,7 +232,8 @@ img {
 @media only screen and (max-width: 480px) {
   .grid-item {
     text-align: center;
-    width: auto;
+    width: 225px;
+    height: 323px;
   }
 }
 
