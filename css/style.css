@@ -90,15 +90,6 @@ h2 {
   align-items: center;
 }
 
-#navegadorPrincipal {
-  width: auto;
-}
-@media only screen and (min-width: 957px) {
-  #navegadorPrincipal {
-    padding-left: 170px;
-  }
-}
-
 nav a {
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -203,8 +194,23 @@ img {
   column-gap: 70px;
   row-gap: 70px;
 }
+@media only screen and (max-width: 480px) {
+  .grid-container {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    width: 500px;
+  }
+}
+@media only screen and (min-width: 957px) {
+  .grid-container {
+    padding-left: 170px;
+  }
+}
 @media only screen and (max-width: 780px) {
   .grid-container {
+    text-align: center;
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
@@ -215,6 +221,7 @@ img {
 }
 
 .grid-item {
+  text-align: center;
   border: 2px black solid;
   border-radius: 40px;
   box-shadow: 8px 8px;
@@ -232,8 +239,8 @@ img {
 @media only screen and (max-width: 480px) {
   .grid-item {
     text-align: center;
-    width: 225px;
-    height: 323px;
+    width: 350px;
+    height: 350px;
   }
 }
 

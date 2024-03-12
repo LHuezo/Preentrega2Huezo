@@ -2,7 +2,7 @@
 @import "../base/variables";
 
 .grid-container{
-
+    
     display: map-get($mapaDeDisplay , display-used1 );
     grid-template-columns: 270px 270px;
     grid-template-rows: 350px 350px;
@@ -12,23 +12,27 @@
         background-color: aliceblue ;
         display: flex;
         flex-direction: column;
+        margin-right:auto;
+        width:500px;
+
     }
     @media only screen and (min-width:957px){
         padding-left: 170px;
         }
+
     @media only screen and (max-width:780px){
+        text-align: center;
         background-color: aliceblue ;
         display: flex;
         flex-direction: column;
     }
     img{
         border-radius: 40px;
-
-
     }
 }
 
 .grid-item{
+    text-align: center;
     border: 2px black solid;
     border-radius: 40px;
     box-shadow:8px 8px;
@@ -42,9 +46,10 @@
         
     }
     @media only screen and (max-width:480px){
+        
         text-align:center;
-        width: 225px;
-        height: 323px;
+        width: 350px;
+        height: 350px;
     }
 }
 .imagennav{
